@@ -1,0 +1,140 @@
+body{
+  background-color: #d6cbd3;
+}
+#navbar{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1vw;
+  list-style-type: none;
+  background-color: #ada397;
+  height: 10vh;
+  margin:0;
+  font-size: 4vh;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  height: 100%;
+  align-self: center;
+}
+li a:hover:not(.active) {
+  background-color: #d6cbd3;
+  color: black;
+}
+#nothing:hover{
+  background-color: #ada397;
+  color: white;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto 1vh auto;
+}
+
+td, th {
+  border: 0.1vh solid #dddddd;
+  text-align: left;
+  padding: 1vh;
+  height: 5vh;
+}
+
+th{
+  background-color: #ada397;
+}
+
+.green{
+  background-color: #bdcebe;
+}
+
+.red{
+  background-color: #eca1a6;
+}
+
+#form{
+  max-width: 50%;
+	padding: 1vh 2vh;
+	margin: 3vh auto;
+	padding: 2vh;
+	background: #f4f7f8;
+	border-radius: 1vh;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#form p{
+  font-size: 5vh;
+  font-weight: bold;
+  margin: 3vh;
+}
+
+#form input{
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 0.5vh;
+	font-size: 2vh;
+	margin: 0;
+	outline: 0;
+	padding: 1vh;
+	width: 100%;
+	box-sizing: border-box; 
+	background-color: #d6cbd3;
+  color:black;
+  font-size: 4vh;
+  font-weight: bold;
+	box-shadow: 0 0.1vh 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 3vh;
+  height: 10vh;
+}
+
+#form input:focus {
+  background: #ada397;
+}
+
+#form button{
+	padding: 2vh 4vh 2vh 4vh;
+	color: #FFF;
+	font-size: 4vh;
+	text-align: center;
+  font-weight: bold;
+  color: white;
+	width: 47%;
+  border-width: 0.1vh 0.1vh 0.1vh;
+  
+}
+
+#deposit{
+  background-color: #9adf9e;
+	border: 0.2vh solid #9adf9e;
+}
+#withdraw{
+  background-color: #eb8990;
+	border: 0.2vh solid #eb8990;
+  float:right;
+}
+#deposit:hover{
+  background-color: #88e28c;
+}
+#withdraw:hover{
+  background-color: #ec767e;
+}
+#selectMonth{
+  margin: 2vh auto;
+  width: 70vw; 
+}
+.categoryInfo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2vw;
+  height: 8vh;
+  align-items: center;
+  justify-items: center;
+  border: 0.2vh solid #ada397;
+  font-size: 3vh;
+}
+.headerCategory{
+  font-weight: bold;
+}
