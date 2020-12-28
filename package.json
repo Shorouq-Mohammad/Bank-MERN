@@ -1,0 +1,23 @@
+{
+  "name": "bank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "review": "node node_modules/elevation-pr/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shorouq-Mohammad/Bank-MERN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shorouq-Mohammad/Bank-MERN/issues"
+  },
+  "homepage": "https://github.com/Shorouq-Mohammad/Bank-MERN#readme",
+  "dependencies": {
+    "elevation-pr": "^2.1.0"
+  }
+}
