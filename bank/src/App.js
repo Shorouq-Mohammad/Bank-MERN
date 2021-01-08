@@ -62,7 +62,7 @@ export default class App extends Component {
             <li id="balance">Balance: {this.getBalance()}$</li>
           </ul>
         </div>
-        {this.state.transactions.length > 0 ? this.displayPage() : null}
+        {this.state.transactions.length > 0 ? this.displayPage() : <Route path="/operations" render={() => <Operations createTransaction={this.createTransaction} balance={this.getBalance()}/>} /> }
         <Redirect from='/' to='/transactions'/>
       </Router>
     )
