@@ -8,25 +8,21 @@ It is a Full Stack **MERN** project, that displays, add, and delete the user's t
 ### 📠 Transactions
 
 The page renders the transactions from the database. The user can delete any transaction and can filter the transactions by month.
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap:2vw;">
-<img src="./transactions.png" width="45%" /> 
-<img src="./transactions2.png" width="45%" /> 
-</div>
+<img src="./transactions.png" width="70%" /> 
+<img src="./transactions2.png" width="70%" /> 
 
 ### 🔧 Operations
 
 A form to add a transaction (Deposit or Withdraw) to the database.
 
-<img src="./operations.png" width="45%"/>
+<img src="./operations.png" width="70%"/>
 
 ### ▤ Categories
 
 Display the categories and if the user hover over a category, its transactions will appear.
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap:2vw;">
-<img src="./categories.png" width="45%"/>
-<img src="./categories1.png" width="45%"/>
-</div>
+<img src="./categories.png" width="70%"/>
+<img src="./categories1.png" width="70%"/>
 
 ## 💻 Technology used
 
