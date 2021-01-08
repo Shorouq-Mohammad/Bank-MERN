@@ -8,6 +8,7 @@ It is a Full Stack **MERN** project, that displays, add, and delete the user's t
 ### 📠 Transactions
 
 The page renders the transactions from the database. The user can delete any transaction and can filter the transactions by month.
+
 <img src="./transactions.png" width="70%" /> 
 <img src="./transactions2.png" width="70%" /> 
 
